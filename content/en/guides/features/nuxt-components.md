@@ -210,7 +210,7 @@ To learn more about keep-alive and keep-alive-props see the [vue docs](https://v
 ```html
 <template>
   <div>
-    <NuxtChild :key="$route.params.id" />
+    <NuxtChild :nuxt-child-key="$route.params.id" />
   </div>
 </template>
 ```
